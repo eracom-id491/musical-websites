@@ -1,7 +1,13 @@
 .grid {
-	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-	column-gap: 4px;
-  padding-top: 80px;
+
+  	width: 100vw;
+  	height:100vh;
+
+  	display: grid;
+  	box-sizing: border-box;
+  	color: white;
+
+  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
 }
