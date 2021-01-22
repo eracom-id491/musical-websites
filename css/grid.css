@@ -10,4 +10,19 @@
   	grid-template-columns: 1fr 1fr 1fr;
   	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 
+	.Top_bar_start{
+			padding-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			background-color: black;
+			font-family: helvetica bold;
+			color: white;
+			font-size: 30px;
+	}
+	.Menu {
+		text-align: right;
+		background-color: black;
+		font-size: 50px;
+		padding: 25px;
+	}
 }
